@@ -9,6 +9,10 @@ numpyを用いて行列演算を行う，sandboxプロジェクトを例とし�
 
 * OS: Linux (Ubuntu 18.04.3 LTS)
 
+以下のWebページを参考にした．
+* Structuring Your Project
+* https://docs.python-guide.org/writing/structure/
+
 ## 詳細
 
 詳細はsandbox/README.mdを参照．
