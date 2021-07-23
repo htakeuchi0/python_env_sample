@@ -11,8 +11,6 @@ Pythonが正しくインストールされていることを確認し，
 処理の詳細は`makeenv.sh`, `Makefile`を参照してください．
 
 ```
-$ source makeenv.sh
-$ source activate
 $ make
 ```
 
@@ -22,12 +20,11 @@ $ make
 行列積演算のサンプルプログラムの結果が出力されます．
 
 ```
-$ python sandbox/sample.py
+$ make run
 ```
 
-テストは以下のコマンドで実行できる．   
-`make test` でもよい．
+テストは以下のコマンドで実行できます．
 
 ```
-$ python -m unittest tests/test_sample.py
+$ make test
 ```
