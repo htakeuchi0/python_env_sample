@@ -23,4 +23,4 @@ clean:
 	rm -rf .venv
 	rm -f activate
 	
-.PHONY:	all init test
+.PHONY:	all init test clean

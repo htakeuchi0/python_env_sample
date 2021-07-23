@@ -1,19 +1,30 @@
-# Pythonサンプル
+# sandboxプロジェクト
 
 ## 概要
 
-Pythonのディレクトリ構成のサンプル．    
-numpyを用いて行列演算を行う，sandboxプロジェクトを例として作成した．
+Pythonが正しくインストールされていることを確認し，
+ディレクトリ構成のサンプルのために作成されたプロジェクトです．
 
-実行環境は以下のとおりである．
+## インストール
 
-* OS: Linux (Ubuntu 18.04.3 LTS)
+以下の手順でインストールできます．
+処理の詳細は`makeenv.sh`, `Makefile`を参照してください．
 
-以下のWebページを参考にした．
-* Structuring Your Project
-* https://docs.python-guide.org/writing/structure/
+```
+$ make
+```
 
-## 詳細
+## 使い方
 
-詳細はsandbox/README.mdを参照．
+以下のコマンドでサンプルプログラムを実行できます．
+行列積演算のサンプルプログラムの結果が出力されます．
 
+```
+$ make run
+```
+
+テストは以下のコマンドで実行できます．
+
+```
+$ make test
+```
