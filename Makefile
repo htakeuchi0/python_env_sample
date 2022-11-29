@@ -11,7 +11,7 @@ test:
 	@./scripts/makeenv.sh >/dev/null
 	@.venv/bin/pip install --upgrade pip >/dev/null 2>&1
 	@.venv/bin/pip install -r requirements.txt >/dev/null 2>&1
-	@.venv/bin/python -m unittest tests/test_sample.py
+	@.venv/bin/python -m unittest tests.test_sample
 
 run:
 	@./scripts/makeenv.sh >/dev/null
